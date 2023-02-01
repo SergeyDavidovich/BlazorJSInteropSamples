@@ -33,15 +33,15 @@
       "url": "_framework\/icudt.dat"
     },
     {
-      "hash": "sha256-Zn1cTSajkT8gk7iM9Z\/mP6FgPuKD0s0fzLcLs8iVb\/A=",
+      "hash": "sha256-guOgo4ecV7AGSttk5kFDiUs7AYLEh2JkWaamUJxq4fc=",
       "url": "_framework\/blazor.boot.json"
     },
     {
-      "hash": "sha256-2hCQdo4brdKnaH\/eX3SXa8nJhQMylxmewi52HJWF74I=",
+      "hash": "sha256-GC1JMjxNSieQ0j2bWmottx3UjAbn2zJsxtK8WXS8t9g=",
       "url": "_framework\/BlazorJSInteropSamples.dll"
     },
     {
-      "hash": "sha256-QEZ9SSvnyTmNaAw3R1aKzoL2AMsOFKuAnBIECbM2JHs=",
+      "hash": "sha256-asf0f9oi\/0VhKqodtHgmXQ\/ra3My8IcjQCO5tTMpSVg=",
       "url": "_framework\/Microsoft.AspNetCore.Components.dll"
     },
     {
@@ -137,7 +137,7 @@
       "url": "_framework\/System.Private.Uri.dll"
     },
     {
-      "hash": "sha256-+0hdKalk2ummIr8VOH1rA8Pon4hG\/9elQVFNPu0a+HQ=",
+      "hash": "sha256-PSWwBso03GhMgZXCWWUYw1o1gpv559aJ\/K9kqnrTdIY=",
       "url": "_framework\/System.Runtime.dll"
     },
     {
@@ -227,7 +227,11 @@
     {
       "hash": "sha256-paIeuWnSzjeLGITWkk4p3rcejUsZWCJGPeOK9UhWXtg=",
       "url": "sample-data\/weather.json"
+    },
+    {
+      "hash": "sha256-8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=",
+      "url": "scripts\/app.js"
     }
   ],
-  "version": "Fr91JEZ2"
+  "version": "\/OBnbbNU"
 };
