@@ -4,11 +4,37 @@
 <PageTitle>Index</PageTitle>
 
 <button @onclick=ButtonClicked>Perform interop</button>
+<hr />
+
+<p>
+    Status: @Result
+</p>
+
+<p>
+    <button @onclick=ShowConfirm>Confirm popup</button>
+</p>
+<p>
+    <button @onclick=ShowPrompt>Prompt popup</button>
+</p>
 
 @code
 {
     private async Task ButtonClicked()
     {
         await JSRuntime.InvokeVoidAsync("alert", "Hello world");
+    }
+
+    private string Result;
+
+    private async Task ShowConfirm()
+    {
+        bool confirmed = await JSRuntime.InvokeAsync<bool>("confirm", "Are you sure?");
+        Result = confirmed ? "You clicked OK" : "You clicked Cancel";
+    }
+
+    private async Task ShowPrompt()
+    {
+        string name = await JSRuntime.InvokeAsync<string>("prompt", "What is your name?");
+        Result = "Your name is: " + name;
     }
 }
