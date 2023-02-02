@@ -1,7 +1,7 @@
 ﻿@page "/"
 @inject IJSRuntime JSRuntime
 
-<button @onclick=ButtonClicked>Perform interop</button>
+<button class="btn btn-primary" @onclick=ButtonClicked>Perform interop</button>
 <hr />
 
 <p>
@@ -9,10 +9,10 @@
 </p>
 
 <p>
-    <button @onclick=ShowConfirm>Confirm popup</button>
+    <button class="btn btn-primary" @onclick=ShowConfirm>Confirm popup</button>
 </p>
 <p>
-    <button @onclick=ShowPrompt>Prompt popup</button>
+    <button class="btn btn-primary" @onclick=ShowPrompt>Prompt popup</button>
 </p>
 
 @code
